@@ -21,7 +21,7 @@ A Python 2.0 project which mimics Game of Life's rules:
 4) Any dead cell with exactly three live neighbors becomes a live cell.
 
 | Functions Created  | Description |
-| ------------------- | ------------- |
+| -------------------------------- | ------------- |
 | def createOneRow(width)  | Returns one row of zeros of width "width"...   |
 | def createBoard(width,height)  | Returns a 2-d array of width and height  |
 | def printBoard(A)  | Prints the 2-d lost-of-lists: A, without spaces(using sys.stdout.write)  |
