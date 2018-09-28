@@ -29,7 +29,7 @@ A Python 2.0 project which mimics Game of Life's rules:
 | def innerCells(width, height)  | Returns a 2d array that has all live cells except for a one-cell-wide border of empty cells around the endge of the 2-d array  |
 | def randomCells(width, height)  | Returns an array of randomly assigned 1's and 0's except that the outer edge of the array is still completely empty (all 0's)  |
 | def copy(A)  | Accepts a 2-d array: A, as its argument and it will return a new 2-d array of data that has the same pattern as the original array  |
-| def innerReverse(A)  | Takes an old 2-d array (or "generation") and then creates a new generation of the same shape and size. |
+| def innerReverse(A)  | Takes an old 2-d array (or "generation") and then creates a new generation of the same shape and size |
 | def countNeighbors(row, col, A)  | Returns the number of live neighbors for a cell in the board A at a particular row and col  |
 | def next_life_generation(A)  | Makes a copy of A and then advances one generation of Game of Life within the *inner cells* of that copy   |
 
