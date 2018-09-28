@@ -23,15 +23,15 @@ A Python 2.0 project which mimics Game of Life's rules:
 | Functions Created  | Description |
 | ------------- | ------------- |
 | def createOneRow(width)  | Returns one row of zeros of width "width"...   |
-| def createBoard(width,height)  | Returns a 2d array of width and height  |
-| def printBoard(A)  | Prints the 2d lost-of-lists: A, without spaces(using sys.stdout.write)  |
-| def diagonalize(width, height)  | Creates an empty board and then modifies it so that it has a diagonal strip of "on" cells, but only in the *intereior* of the 2d array  |
-| def innerCells(width, height)  | Returns a 2d array that has all live cells except for a one-cell-wide border of empty cells around the endge of the 2d array  |
-| def randomCells(width, height)  | Returns an array of randomly-assigned 1's and 0's except that the outer edge of the array is still completely empty (all 0's)  |
-| def copy(A)  | Accepts a 2d array: A, as its argument and it will return a new 2d array of data that has the same pattern as the original array  |
-| def innerReverse(A)  | Takes an old 2d array (or "generation") and then creates a new generation of the same shape and size. |
+| def createBoard(width,height)  | Returns a 2-d array of width and height  |
+| def printBoard(A)  | Prints the 2-d lost-of-lists: A, without spaces(using sys.stdout.write)  |
+| def diagonalize(width, height)  | Creates an empty board and then modifies it so that it has a diagonal strip of "on" cells, but only in the *intereior* of the 2-d array  |
+| def innerCells(width, height)  | Returns a 2d array that has all live cells except for a one-cell-wide border of empty cells around the endge of the 2-d array  |
+| def randomCells(width, height)  | Returns an array of randomly assigned 1's and 0's except that the outer edge of the array is still completely empty (all 0's)  |
+| def copy(A)  | Accepts a 2-d array: A, as its argument and it will return a new 2-d array of data that has the same pattern as the original array  |
+| def innerReverse(A)  | Takes an old 2-d array (or "generation") and then creates a new generation of the same shape and size. |
 | def countNeighbors(row, col, A)  | Returns the number of live neighbors for a cell in the board A at a particular row and col  |
-| def next_life_generation(A)  | Makes a copy of A and then advances one generation of Game of Life within  the *inner cells* of that copy   |
+| def next_life_generation(A)  | Makes a copy of A and then advances one generation of Game of Life within the *inner cells* of that copy   |
 
 
 
