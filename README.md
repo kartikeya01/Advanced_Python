@@ -1,7 +1,4 @@
-# Advanced Python
-A collection of various advanced Python projects I have completed
-
-## Sounds Good!
+## Project 1: Sounds Good!
 A Python 2.0 project that manipulates sound. It can:
 
 - [x] Change the audio file's speed (make it slower or faster).
@@ -12,7 +9,7 @@ A Python 2.0 project that manipulates sound. It can:
 - [x] Take two audio files (each with different sample rates) and layers them into a new .wav file to play them both together. This function also has the capability of controlling the scale factor (volume) of each sound, so one sound will play a little louder than the other.
 - [x] Add an echo to the sound file by adding a time delay.
 
-## Game of Life
+## Project 2: Game of Life
 A Python 2.0 project which mimics Game of Life's rules:
 
 1) Any live cell with fewer than two live neighbors dies, as if caused by underpopulation.
